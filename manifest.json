@@ -1,7 +1,7 @@
 {
   "name": "SystemM",
   "version": "0.0.0.1",
-  "description": "Simple markdown viewer to make it is easier and faster to read paragrpahs and chapters",
+  "description": "Simple markdown viewer to make it is easier and faster to read paragraphs and chapters",
   "manifest_version": 3,
   "icons": {
     "16": "./images/c16.png",
