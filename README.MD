@@ -63,6 +63,21 @@ For grouping and wrapping text into a Div container, we also use this {id}[text]
 # Setup
 2 files needed. The markdown and the menus. The raw id of the menus is used by the js to find the id in the markdown with a "t" appended e.g menu id=welcome and markdown id=twelcome. 
 
+On Windows devices the mime type .md text/plain should be added to IIS otherwise it will not be served and a 404 error will appear.
+
+# Functions
+Chrome Extension
+Expandable full screen
+Website version (tbd)
+View menus, 2 levels, based on editable menus file
+View markdown as html
+Refresh ; Help (opens hardcoded help files) ; Expand ; Settings
+Settings can change the markdown, menus, logo.
+Encrypted markdown password in Settings.
+Url can have 4 parameters - a, b, c, d where a is name; b is markdown location; c is menu location; d is the logo location
+History of parameterized views stored and viewed in Settings.
+
+
 # Development 
 open -n -a /Applications/Google\ Chrome.app/Contents/MacOS/Google\ Chrome --args --user-data-dir="users/shared" --disable-web-security
 runs without cors for local installation
