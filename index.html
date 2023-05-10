@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title id="tit"></title>
+    <link rel="stylesheet" href="style.css?v=r" />
+  </head>
+  <body>
+  <div class="global">
+
+    <div class="grid-container">
+      <div class="item1">
+        
+        <div id="topbanner" class="hdr"></div>
+
+
+
+    <div class="flexy icon-bar">
+    <div id="burgerking" class="burger">
+        <a id="burger"><img src="images/burger.svg" /></a>
+    </div>
+
+    <div id="iconpad" class="iconpad tac">
+
+    </div>
+
+    <div id="refresh" class="refresh tac">
+      <a id ="reload"><img src="images/reload.svg" /></a>
+    </div>
+
+    <div id="help" class="help tac">
+      <a id ="helpy"><img src="images/help.svg" /></a>
+    </div>
+
+    <div id="expand" class="expand tac">
+      <a id ="expando" target="blank" href="index.html"><img src="images/expand.svg" /></a>
+    </div>
+
+    <div id="dots" class="settings tac">
+      <a id="settings"><img src="images/settings.svg" /></a>
+    </div>
+    </div>
+        
+        
+        </div>
+      <div class="item2">
+        <div id="items" class="items"></div>
+
+      </div>
+      <div class="item3">
+        <div id="thebody" class="content right col2">
+      
+          <div id="splash" class="splasher">
+           
+          </div>
+          <div class="cl2 hide setlist" id="thesettings">
+            <h1 class="head">Settings</h1>
+            <div class="flexy">
+              <div class="heado">Markdown</div>
+              <div class="inputo">
+                <input
+                  id="i1"
+                  required
+                  minlength="3"
+                  placeholder="files/markdown.md"
+                  type="text"
+                />
+              </div>
+            </div>
+            <div class="flexy">
+              <div class="heado">Index</div>
+              <div class="inputo">
+                <input
+                  required
+                  minlength="3"
+                  id="i2"
+                  placeholder="files/menus.md"
+                  type="text"
+                  placeholder=""
+                />
+              </div>
+            </div>
+            <div class="flexy">
+              <div class="heado">Last Updated</div>
+              <div class="inputo"><input id="i3" type="text" /></div>
+            </div>
+            <div class="flexy">
+              <div class="heado">Logo</div>
+              <div class="inputo">
+                <input id="i6" minlength="2" type="text" placeholder="logo image url" />
+              </div>
+            </div>
+            <div class="flexy">
+              <div class="heado">API Key</div>
+              <div class="inputo">
+                <input id="i4" minlength="10" type="text" placeholder="api key" />
+              </div>
+            </div>
+            <div class="flexy">
+              <div class="heado">Password</div>
+              <div class="inputo">
+                <input id="i5" minlength="10" type="text" placeholder="private key" />
+              </div>
+            </div>
+         
+
+
+
+            <div class="fileviewcontainer">
+              <div class="">
+                <input type="file" accept=".md,.txt,.csv,.json" id="fileInput" />
+              </div>
+              <div class-"xsavers">
+              <label for="fileInput" id="filelabel">Edit a file</label>
+              <p class="filename" id="fileName"></p>
+              <div id="savecontainer" class="hide">
+                <div class="mybutton" id="downwego">Save As</div>
+                <input type="checkbox" id="encryptme" name="encryptme" value="encrypt">
+                <label for="encryptme">Encrypt file with password?</label>
+              </div>
+              <div class="fileview"><pre id="fileContents" contenteditable="true"></pre></div>
+              <input type="hidden" id="hiddenFileContents" />
+    
+           
+              </div>
+            </div>
+            </div>
+          </div>
+          <div class="cl2 pleft" id="niv"></div>
+
+      </div>  
+      <div class="item4">
+        <div id="footer" class="footer"></div>
+        </div>
+    <div class="logo" id="logo"></div>
+    </div>
+
+
+
+  </div>
+
+ 
+
+    
+ 
+    
+    
+
+    <script src="files.js"></script>
+    <script src="active.js"></script>
+    <script src="markdown.js"></script>
+    <script src="crypt.js"></script>
+  </body>
+</html>
